@@ -5,7 +5,12 @@ import org.scalatra._
 class SchedulerServlet extends ScalatraServlet {
 
   get("/") {
-    <span>Hello</span>
+    <html>
+      <head><title>Test Title</title></head>
+      <body>
+        <span>BOoyh</span>
+      </body>
+    </html>
   }
 
 }
