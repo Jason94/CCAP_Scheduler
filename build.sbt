@@ -6,7 +6,7 @@ name := "Scheduler"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.12.6"
+scalaVersion := "2.12.4"
 
 resolvers += Classpaths.typesafeReleases
 
