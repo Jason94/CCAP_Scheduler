@@ -20,7 +20,8 @@ libraryDependencies ++= Seq(
   "io.cucumber" %% "cucumber-scala" % "2.0.1" % "test",
   "io.cucumber" % "cucumber-jvm" % "2.0.1" % "test",
   "io.cucumber" % "cucumber-junit" % "2.0.1" % "test",
-  "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+  "org.seleniumhq.selenium" % "selenium-java" % "2.35.0" % "test"
 )
 
 enablePlugins(ScalatraPlugin)

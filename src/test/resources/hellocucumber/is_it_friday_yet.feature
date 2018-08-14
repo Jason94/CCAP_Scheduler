@@ -10,3 +10,7 @@ Feature: Is it Friday yet?
     Given today is "Friday"
     When I ask whether it's Friday yet
     Then I should be told "Yep"
+
+  Scenario: I see Friday on the home page
+    Given I am on the home page
+    Then I should see "Friday"
