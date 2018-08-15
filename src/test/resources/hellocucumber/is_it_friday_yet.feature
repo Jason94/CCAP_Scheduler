@@ -14,3 +14,7 @@ Feature: Is it Friday yet?
   Scenario: I see Friday on the home page
     Given I am on the home page
     Then I should see "Friday"
+
+  Scenario: I see Friday on the home page
+    Given I am on the index page
+    Then the title should be "Test Title"

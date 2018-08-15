@@ -8,4 +8,11 @@ class SchedulerServlet extends ScalatraServlet {
     <span>Hello</span>
   }
 
+  get("/index.html") {
+    <html>
+      <head><title>Test Title</title></head>
+      <body><span>Friday</span></body>
+    </html>
+  }
+
 }
